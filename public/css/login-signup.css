@@ -1,0 +1,40 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.login-signup-section{
+    /* background-color: lightgrey; */
+    height: 100vh;
+    width: 100vw;
+    
+}
+.login-signup-section h2{
+    font-family: 'Roboto','sans-serif';
+    width: fit-content;
+    position: fixed;
+    top: 20%;
+    left: 40%;
+}
+.login-form{
+    position: fixed;
+    border: 1px solid red;
+    width: 50%;
+    top: 30%;
+    left: 40%;
+    height: 50px;
+}
+.login-form label{
+    display: block;
+    margin-bottom: -13px;
+}
+span{
+    color: red;
+}
+.username-input{
+    /* background-color: lightgrey; */
+    height: 20px;
+    width: 300px;
+    padding: 2px;
+}
